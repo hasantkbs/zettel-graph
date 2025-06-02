@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "emacs-terminal",
+      "label": "emacs-terminal"
+    },
+    {
+      "id": "gtd-yontemi",
+      "label": "gtd-yontemi"
+    },
+    {
+      "id": "zettelkasten",
+      "label": "zettelkasten"
+    }
+  ],
+  "links": [
+    {
+      "source": "emacs-terminal",
+      "target": "zettelkasten"
+    },
+    {
+      "source": "zettelkasten",
+      "target": "emacs-terminal"
+    },
+    {
+      "source": "zettelkasten",
+      "target": "gtd-yontemi"
+    }
+  ]
+}
